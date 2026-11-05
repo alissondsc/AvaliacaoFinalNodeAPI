@@ -10,7 +10,7 @@ Cliente.init(
     senha: Sequelize.STRING
   },
   {
-    sequelize: Database.connection,
+    sequelize: Database.db,
     modelName: "clientes"
   }
 );
